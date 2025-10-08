@@ -16,7 +16,7 @@ export default function SideNav() {
   const pathname = usePathname();
 
   return (
-    <div className="bg-gray-500 flex h-full flex-col px-20 py-60 md:px-2">
+    <div className="bg-blue-00 flex h-full flex-col px-20 py-60 md:px-2">
       
       <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2 mt-5">
         {links.map((link) => {
